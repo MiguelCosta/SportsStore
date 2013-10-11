@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
 using SportsStore.WebUI.Models;
+using SportsStore.WebUI.Filters;
 
 namespace SportsStore.WebUI.Controllers {
     public class ProductController : Controller {
@@ -19,6 +20,7 @@ namespace SportsStore.WebUI.Controllers {
             this.repository = productRepository;
         }
 
+        [CustomAuth(true)]
         public ViewResult List(string category, int page = 1) {
 
             ProductsListViewModel viewModel = new ProductsListViewModel();
@@ -46,6 +48,21 @@ namespace SportsStore.WebUI.Controllers {
             } else {
                 return null;
             }
+        }
+
+        [RangeException]
+        public string RangeTest(int id) {
+            if(id > 100) {
+                return String.Format("The id value is: {0}", id);
+            } else {
+                throw new ArgumentOutOfRangeException("id", id, "");
+            }
+        }
+
+        [SimpleMessage(Message = "A", Order=1)]
+        [CustomAction(Order=2)] // para testar apenas a ação não existir
+        public string TestFilter() {
+            return "This is the Customer controller";
         }
 
     }

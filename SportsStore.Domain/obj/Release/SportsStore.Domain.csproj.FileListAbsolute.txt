@@ -1,0 +1,8 @@
+E:\Projectos\Tutoriais\SportsStore\SportsStore.Domain\bin\Release\SportsStore.Domain.dll.config
+E:\Projectos\Tutoriais\SportsStore\SportsStore.Domain\bin\Release\SportsStore.Domain.dll
+E:\Projectos\Tutoriais\SportsStore\SportsStore.Domain\bin\Release\SportsStore.Domain.pdb
+E:\Projectos\Tutoriais\SportsStore\SportsStore.Domain\bin\Release\EntityFramework.dll
+E:\Projectos\Tutoriais\SportsStore\SportsStore.Domain\bin\Release\EntityFramework.xml
+E:\Projectos\Tutoriais\SportsStore\SportsStore.Domain\obj\Release\SportsStore.Domain.dll
+E:\Projectos\Tutoriais\SportsStore\SportsStore.Domain\obj\Release\SportsStore.Domain.pdb
+E:\Projectos\Tutoriais\SportsStore\SportsStore.Domain\obj\Release\SportsStore.Domain.csprojResolveAssemblyReference.cache

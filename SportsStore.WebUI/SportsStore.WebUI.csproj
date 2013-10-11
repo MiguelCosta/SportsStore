@@ -167,7 +167,7 @@
     <Compile Include="Models\CartIndexViewModel.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\PagingInfo.cs" />
-    <Compile Include="NavigationRoutes\ProductsListViewModel.cs" />
+    <Compile Include="Models\ProductsListViewModel.cs" />
     <Compile Include="NavigationRoutes\INavigationRouteFilter.cs" />
     <Compile Include="NavigationRoutes\NamedRoute.cs" />
     <Compile Include="NavigationRoutes\NavigationExtensions.cs" />

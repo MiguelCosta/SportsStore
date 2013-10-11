@@ -1,0 +1,8 @@
+*.pdb
+/SportsStore.WebUI/obj
+/SportsStore.UnitTests/bin
+/SportsStore.UnitTests/obj
+/SportsStore.Domain/obj
+/SportsStore.Domain/bin
+/SportsStore.WebUI/bin
+*.suo
